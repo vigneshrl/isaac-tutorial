@@ -4,8 +4,8 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.11"
-  # commands:
-  #   - pip install mkdocs-material
+  commands:
+    - pip install mkdocs-material
   #   - mkdocs build --verbose
 
 mkdocs:
