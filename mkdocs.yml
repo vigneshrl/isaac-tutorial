@@ -1,0 +1,36 @@
+site_name: Isaac Tutorial
+site_description: Documentation for Isaac Tutorial
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Installation:
+    - Installation/Workstation_setup.md
+  - Robots:
+    - Robots/single_agent.md
+    - Robots/Multi_agent.md
+  - World:
+    - Scene:
+      - World/Scene/world_creation.md
