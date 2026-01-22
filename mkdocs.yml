@@ -37,6 +37,8 @@ nav:
       - World/Scene/world_creation.md
 extra:
   version: "4.5.0" # This is the version of Isaac Sim we are using
+  version_selector: true
+  version: "5.1.0"
 # markdown_extensions:
 #   - pymdownx.highlight
 #   - pymdownx.superfences
