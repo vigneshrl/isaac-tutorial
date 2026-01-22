@@ -2,7 +2,7 @@ site_name: Isaac Tutorial
 site_description: Documentation for Isaac Tutorial
 
 # Set docs_dir to current directory since mkdocs.yml is in the same folder as docs
-docs_dir: .
+# docs_dir: .
 # site_dir: site
 
 theme:
