@@ -36,10 +36,10 @@ nav:
     - Scene:
       - World/Scene/world_creation.md
 
-markdown_extensions:
-  - pymdownx.highlight
-  - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.tasklist
-  - attr_list
-  - md_in_html
+# markdown_extensions:
+#   - pymdownx.highlight
+#   - pymdownx.superfences
+#   - pymdownx.tabbed
+#   - pymdownx.tasklist
+#   - attr_list
+#   - md_in_html
