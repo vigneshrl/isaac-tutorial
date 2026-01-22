@@ -1,6 +1,9 @@
 site_name: Isaac Tutorial
 site_description: Documentation for Isaac Tutorial
 
+docs_dir: docs
+site_dir: site
+
 theme:
   name: material
   palette:
