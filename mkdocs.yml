@@ -1,17 +1,68 @@
+# site_name: Isaac Tutorial
+# site_description: Documentation for Isaac Tutorial
+
+# # Set docs_dir to current directory since mkdocs.yml is in the same folder as docs
+# # docs_dir: .
+# # site_dir: site
+
+# theme:
+#   name: readthedocs
+#   highlightjs: true
+#   hljs_languages:
+#     - yaml
+#     - rust
+
+#   features:
+#     - navigation.tabs
+#     - navigation.sections
+#     - navigation.expand
+#     - navigation.top
+#     - search.suggest
+#     - search.highlight
+
+#   font:
+#     text: Roboto
+#     code: Roboto Mono
+#   icon:
+#     repo: fontawesome/brands/github
+# nav:
+#   - Home: index.md
+#   - Installation:
+#     - Installation/Workstation_setup.md
+#   - Robots:
+#     - Robots/single_agent.md
+#     - Robots/Multi_agent.md
+#   - World:
+#     - Scene:
+#       - World/Scene/world_creation.md
+# extra:
+#   version: "4.5.0" # This is the version of Isaac Sim we are using
+#   version_selector: true
+#   # version: "5.1.0"
+# # markdown_extensions:
+# #   - pymdownx.highlight
+# #   - pymdownx.superfences
+# #   - pymdownx.tabbed
+# #   - pymdownx.tasklist
+# #   - attr_list
+# #   - md_in_html
+
+
 site_name: Isaac Tutorial
 site_description: Documentation for Isaac Tutorial
 
-# Set docs_dir to current directory since mkdocs.yml is in the same folder as docs
-# docs_dir: .
-# site_dir: site
+docs_dir: docs
+site_dir: site
 
 theme:
-  name: readthedocs
-  highlightjs: true
-  hljs_languages:
-    - yaml
-    - rust
-
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+    - scheme: slate
+      primary: blue
+      accent: blue
   features:
     - navigation.tabs
     - navigation.sections
@@ -19,12 +70,9 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
-
-  font:
-    text: Roboto
-    code: Roboto Mono
   icon:
     repo: fontawesome/brands/github
+
 nav:
   - Home: index.md
   - Installation:
@@ -35,14 +83,9 @@ nav:
   - World:
     - Scene:
       - World/Scene/world_creation.md
+
 extra:
-  version: "4.5.0" # This is the version of Isaac Sim we are using
+  version:
+    provider: readthedocs
   version_selector: true
-  version: "5.1.0"
-# markdown_extensions:
-#   - pymdownx.highlight
-#   - pymdownx.superfences
-#   - pymdownx.tabbed
-#   - pymdownx.tasklist
-#   - attr_list
-#   - md_in_html
+  
