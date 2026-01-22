@@ -10,3 +10,8 @@ build:
 
 mkdocs:
   configuration: mkdocs.yml
+
+# extra:
+  # version:
+  #   provider: readthedocs
+  # version_selector: true
