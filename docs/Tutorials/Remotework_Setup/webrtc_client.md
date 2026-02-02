@@ -1,4 +1,4 @@
-This section shows you the methods of livestreaming a headless instance of Isaac Sim.
+### This section shows you the methods of livestreaming a headless instance of Isaac Sim.
 > [!NOTE] 
 > 1. Only one method of streaming can be used at a time for each Isaac Sim instance. Only one client can access an Isaac Sim instance at a time.
 > 2. To exit the Isaac Sim app remotely. Click the File menu, then click Exit in the streamed Isaac Sim app. Next, close the Isaac Sim WebRTC Streaming Client app.
